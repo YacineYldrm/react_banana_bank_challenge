@@ -1,0 +1,23 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    font-family: sans-serif;
+    background: url(./../banana_background.jpg) center / cover no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main_wrapper
+{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
