@@ -24,8 +24,8 @@
         background-color: rgb(199, 199, 199);
         padding: 12px 24px;
         border-radius: 4px;
-        box-shadow: 2px 4px 0px 0px rgba(0, 0, 0, 0.398);
-        min-width: 70%;
+        box-shadow: 2px 4px 2px 0px inset rgba(0, 0, 0, 0.398);
+        min-width: 50%;
         text-align: right;
     }
 
@@ -57,9 +57,13 @@
 
             &:hover    
             {
-                transform: translateY(-1px);
-                box-shadow: 2px 5px 0px 0px rgba(0, 0, 0, 0.568);
                 background-color: rgb(251, 255, 0);
+            }
+
+            &:active
+            {
+                transform: translateY(4px);
+                box-shadow: 0.5px 2px 0px 0px rgba(0, 0, 0, 0.568);
             }
         }
     }
